@@ -11,9 +11,13 @@ int numB =Convert.ToInt32(Console.ReadLine());
 
 if(numA>numB)
 {
-    Console.Write("Ваше число A : "); Console.WriteLine(numA);
+    Console.Write("Число A больше, числа B : "); Console.WriteLine(numA);
+}
+else if(numA<numB)
+{
+    Console.Write("Число B больше, числа A : "); Console.WriteLine(numB);
 }
 else
 {
-    Console.Write("Ваше число B : "); Console.WriteLine(numB);
+    Console.Write("Числа равны!");
 }
