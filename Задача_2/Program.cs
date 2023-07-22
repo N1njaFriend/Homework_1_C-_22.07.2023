@@ -101,10 +101,10 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.WriteLine("Введите число A");
+Console.Write("Введите число A : ");
 int numA =Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите число B");
+Console.Write("Введите число B : ");
 int numB =Convert.ToInt32(Console.ReadLine());
 
 if(numA>numB)
@@ -115,41 +115,3 @@ else
 {
     Console.Write("Ваше число B : "); Console.WriteLine(numB);
 }
-
-
-
-// Задача 4
-
-// Console.WriteLine("Введите число A");
-// int numA =Convert.ToInt32(Console.ReadLine());
-
-// Console.WriteLine("Введите число B");
-// int numB =Convert.ToInt32(Console.ReadLine());
-
-// Console.WriteLine("Введите число C");
-// int numC =Convert.ToInt32(Console.ReadLine());
-
-// if(numA>numB)
-// {
-//     Console.Write("Ваше число A : "); Console.WriteLine(numA);
-// }
-// else if(numB>numC)
-// {
-//     Console.Write("Ваше число B : "); Console.WriteLine(numB);
-// }
-// else if(numC>numA)
-// {
-//     Console.Write("Ваше число C : "); Console.WriteLine(numC);
-// }
-// else if(numA>numC)
-// {
-//     Console.Write("Ваше число A : "); Console.WriteLine(numA);
-// }
-// else if(numB>numA)
-// {
-//     Console.Write("Ваше число B : "); Console.WriteLine(numB);
-// }
-// else if(numC>numB)
-// {
-//     Console.Write("Ваше число C : "); Console.WriteLine(numC);
-// }
